@@ -1,0 +1,56 @@
+#root {
+  /* Material Design 'Dark Theme' Baseline Palette */
+  --color-main-background: #121212;
+  --color-navbar: #3d3d3d8c;
+  --color-primary: #bb86fc;
+  --color-primary-variant: #3700b3;
+  --color-secondary: #03dac6;
+  --color-surface: #ffffff;
+  --color-text: rgba(255, 255, 255, 0.87);
+  /* Material design: high emphasis text 87% opacity, medium 60%, disabled 38% */
+
+  /* original #root styling */
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+  margin: 0 auto;
+  text-align: center;
+
+  /* moved from :root in index.css */
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+}
+
+main {
+  padding: 0 2rem;
+}
+
+a {
+  font-weight: 500;
+  color: var(--color-secondary);
+  text-decoration: inherit;
+}
+a:hover {
+  color: pink;
+}
+
+h2 {
+  font-size: clamp(1.5rem, 5vw, 2rem);
+}
+
+h3 {
+  font-size: clamp(1rem, 4vw, 1.5rem);
+}
+
+@media only screen and (min-width: 45em) {
+  main {
+    padding: 0 4rem;
+  }
+}

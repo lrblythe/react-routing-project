@@ -1,0 +1,21 @@
+.address-header {
+  margin-top: 2rem;
+}
+
+.addressListAndSelected {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.addresslist {
+  text-align: left;
+  border: 1px solid var(--color-text);
+  border-radius: 0.5rem;
+  background-color: var(--color-navbar);
+  margin-bottom: 1rem;
+}
+
+.addresslist p {
+  padding: 0 1rem;
+}

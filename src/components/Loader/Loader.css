@@ -1,0 +1,22 @@
+.loader {
+  font-size: 4rem;
+  text-align: center;
+  list-style: none;
+  color: rgb(144, 241, 248);
+  animation-name: pulse;
+  animation-duration: 0.8s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 1;
+    transform: rotate(0);
+  }
+
+  100% {
+    opacity: 0.1;
+    transform: rotate(-5deg);
+  }
+}

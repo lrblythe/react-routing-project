@@ -1,0 +1,16 @@
+.masthead {
+  width: 100vw;
+  background-color: var(--color-main-background);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid var(--color-battleship-gray);
+}
+
+.masthead > h1 {
+  flex-basis: 45vw;
+  flex-grow: 0;
+  flex-shrink: 1;
+  font-size: clamp(2rem, 6vw, 3rem);
+}

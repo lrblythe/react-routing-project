@@ -1,0 +1,24 @@
+.mainnav {
+  font-size: clamp(1rem, 3vw, 1.5rem);
+  padding: 0.5rem 0;
+  border-top: 1px solid var(--color-surface);
+  border-bottom: 1px solid var(--color-surface);
+}
+
+.mainnav a {
+  color: var(--color-surface);
+  margin-inline: 0.75rem;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  background-color: var(--color-navbar);
+}
+
+.mainnav a.active {
+  color: var(--color-secondary);
+}
+
+@media only screen and (min-width: 45em) {
+  .mainnav a {
+    margin-inline: 1rem;
+  }
+}
